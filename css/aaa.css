@@ -16,7 +16,7 @@ tr {
   padding: 0;
 }
 
-a, .link {
+a, a:hover, .link {
   color: #ff9900;
 }
 
@@ -34,6 +34,11 @@ a, .link {
 #sidebar-first ul.menu {
   font-size: 1.429em;
   line-height: 2em;
+}
+
+.main-content h2.node__title {
+  font-size: 2em;
+  line-height: 1;
 }
 
 /*# sourceMappingURL=aaa.css.map */

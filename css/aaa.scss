@@ -16,7 +16,7 @@ tr {
 	padding: 0;
 }
 
-a, .link {
+a, a:hover, .link {
 color: rgb(255, 153, 0);
 }
 
@@ -34,4 +34,9 @@ color: rgb(255, 153, 0);
 		font-size: 1.429em;
 		line-height: 2em;
 	}
+}
+
+.main-content h2.node__title {
+	font-size: 2em;
+	line-height: 1;
 }
