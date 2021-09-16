@@ -7,4 +7,17 @@ tr {
   padding-right: 1em;
 }
 
+.sidebar .block {
+  padding: 0;
+  border: none;
+}
+
+.sidebar .section {
+  padding: 0;
+}
+
+a, .link {
+  color: #ff9900;
+}
+
 /*# sourceMappingURL=aaa.css.map */

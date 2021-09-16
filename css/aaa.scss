@@ -1,8 +1,21 @@
 tr {
-background: none;
-background-color: none;
+	background: none;
+	background-color: none;
 }
 
 .align-left {
-padding-right: 1em;
+	padding-right: 1em;
+}
+
+.sidebar .block {
+	padding: 0;
+	border: none;
+}
+
+.sidebar .section {
+	padding: 0;
+}
+
+a, .link {
+color: rgb(255, 153, 0);
 }
