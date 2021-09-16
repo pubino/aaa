@@ -19,3 +19,19 @@ tr {
 a, .link {
 color: rgb(255, 153, 0);
 }
+
+.layout-sidebar-first .main-content {
+	margin-left: 15%;
+}
+
+.layout-one-sidebar .main-content {
+	width: 85%;
+}
+
+#sidebar-first {
+	width: 15%;
+	ul.menu {
+		font-size: 1.429em;
+		line-height: 2em;
+	}
+}
