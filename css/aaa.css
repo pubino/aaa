@@ -35,6 +35,9 @@ a, a:hover, .link {
   font-size: 1.429em;
   line-height: 2em;
 }
+#sidebar-first ul.menu a {
+  color: black;
+}
 
 .main-content h2.node__title {
   font-size: 2em;
