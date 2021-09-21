@@ -44,6 +44,12 @@ a, a:hover, .link {
   line-height: 1;
 }
 
+#menubar .menu--main {
+  background-color: white;
+}
+#menubar .menu--main a {
+  color: black;
+}
 @media (min-width: 768px) {
   #menubar {
     display: none;
