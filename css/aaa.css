@@ -44,7 +44,7 @@ a, a:hover, .link {
   line-height: 1;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #block-mainnavigation {
     display: none;
   }
