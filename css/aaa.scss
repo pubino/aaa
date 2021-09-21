@@ -21,7 +21,12 @@ color: rgb(255, 153, 0);
 }
 
 .layout-sidebar-first .main-content {
-	margin-left: 15%;
+	@media (max-width: 768px) {
+		margin-left: 15%;
+	}
+	@media (max-width: 768px) {
+		margin: 0 auto;
+	}
 }
 
 .layout-one-sidebar .main-content {
@@ -58,11 +63,6 @@ color: rgb(255, 153, 0);
 	}
 }
 
-.layout-sidebar-first .main-content {
-	@media (min-width: 768px) {
-		margin: 0 auto;
-	}
-}
 
 #block-aaa-main-menu {
 	@media (max-width: 768px) {

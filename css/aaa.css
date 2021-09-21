@@ -20,8 +20,15 @@ a, a:hover, .link {
   color: #ff9900;
 }
 
-.layout-sidebar-first .main-content {
-  margin-left: 15%;
+@media (max-width: 768px) {
+  .layout-sidebar-first .main-content {
+    margin-left: 15%;
+  }
+}
+@media (max-width: 768px) {
+  .layout-sidebar-first .main-content {
+    margin: 0 auto;
+  }
 }
 
 .layout-one-sidebar .main-content {
@@ -54,12 +61,6 @@ a, a:hover, .link {
 @media (min-width: 768px) {
   #menubar {
     display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .layout-sidebar-first .main-content {
-    margin: 0 auto;
   }
 }
 
