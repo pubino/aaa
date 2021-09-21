@@ -45,8 +45,8 @@ color: rgb(255, 153, 0);
 	line-height: 1;
 }
 
-#block-mainnavigation {
-	@media (max-width: 768px) {
+#menubar {
+	@media (min-width: 768px) {
 		display: none;
 	}
 }
