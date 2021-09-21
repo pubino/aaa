@@ -44,13 +44,13 @@ a, a:hover, .link {
   line-height: 1;
 }
 
-@media (max-width: 62em) {
+@media (min-width: 768px) {
   #block-mainnavigation {
     display: none;
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #block-aaa-main-menu {
     display: none;
   }
