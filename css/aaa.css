@@ -44,4 +44,16 @@ a, a:hover, .link {
   line-height: 1;
 }
 
+@media (max-width: 62em) {
+  #block-mainnavigation {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #block-aaa-main-menu {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=aaa.css.map */

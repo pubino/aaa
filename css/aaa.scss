@@ -44,3 +44,15 @@ color: rgb(255, 153, 0);
 	font-size: 2em;
 	line-height: 1;
 }
+
+#block-mainnavigation {
+	@media (max-width: 62em) {
+		display: none;
+	}
+}
+
+#block-aaa-main-menu {
+	@media (min-width: 768px) {
+		display: none;
+	}
+}
