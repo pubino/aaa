@@ -49,10 +49,17 @@ a, a:hover, .link {
 }
 #menubar .menu--main a {
   color: black;
+  font-size: 14px;
 }
 @media (min-width: 768px) {
   #menubar {
     display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .layout-sidebar-first .main-content {
+    margin: 0 auto;
   }
 }
 
