@@ -56,13 +56,13 @@ a, a:hover, .link {
   color: black;
   font-size: 14px;
 }
-@media (min-width: 815px) {
+@media (min-width: 860px) {
   #menubar {
     display: none;
   }
 }
 
-@media (max-width: 815px) {
+@media (max-width: 860px) {
   #block-aaa-main-menu {
     display: none;
   }

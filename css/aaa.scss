@@ -56,14 +56,14 @@ color: rgb(255, 153, 0);
 			font-size: 14px;
 		}
 	}
-	@media (min-width: 815px) {
+	@media (min-width: 860px) {
 		display: none;
 	}
 }
 
 
 #block-aaa-main-menu {
-	@media (max-width: 815px) {
+	@media (max-width: 860px) {
 		display: none;
 	}
 }
