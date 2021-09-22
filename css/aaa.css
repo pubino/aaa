@@ -21,7 +21,7 @@ a, a:hover, .link {
 }
 
 .layout-sidebar-first .main-content {
-  margin-right: 15%;
+  margin-left: 15%;
 }
 @media (max-width: 768px) {
   .layout-sidebar-first .main-content {
