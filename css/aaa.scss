@@ -22,7 +22,7 @@ color: rgb(255, 153, 0);
 
 .layout-sidebar-first .main-content {
 	margin-left: 15%;
-	@media (max-width: 768px) {
+	@media (max-width: 815px) {
 		margin: 0 auto;
 	}
 }
@@ -56,14 +56,14 @@ color: rgb(255, 153, 0);
 			font-size: 14px;
 		}
 	}
-	@media (min-width: 768px) {
+	@media (min-width: 815px) {
 		display: none;
 	}
 }
 
 
 #block-aaa-main-menu {
-	@media (max-width: 768px) {
+	@media (max-width: 815px) {
 		display: none;
 	}
 }

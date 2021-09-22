@@ -23,7 +23,7 @@ a, a:hover, .link {
 .layout-sidebar-first .main-content {
   margin-left: 15%;
 }
-@media (max-width: 768px) {
+@media (max-width: 815px) {
   .layout-sidebar-first .main-content {
     margin: 0 auto;
   }
@@ -56,13 +56,13 @@ a, a:hover, .link {
   color: black;
   font-size: 14px;
 }
-@media (min-width: 768px) {
+@media (min-width: 815px) {
   #menubar {
     display: none;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 815px) {
   #block-aaa-main-menu {
     display: none;
   }
